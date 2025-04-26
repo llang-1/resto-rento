@@ -36,7 +36,7 @@ import { Loader2 } from "lucide-react"
 
 const foods = [
   { value: "mie bakwan", label: "Mie Bakwan" },
-  { value: "sosis walid", label: "Sosis Walid" },
+  { value: "sosis wow", label: "Sosis Wow" },
   { value: "ramen genkikara", label: "Ramen Genkikara" },
   { value: "mie hompimpa", label: "Mie Hompimpa" },
 ]
