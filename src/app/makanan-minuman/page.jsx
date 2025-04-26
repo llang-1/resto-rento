@@ -10,7 +10,7 @@ export default function Menu() {
 
     const foods = [
         {name: "Mie Bakwan", description: "Mie gurih disajikan dengan bakwan renyah, perpaduan sederhana yang nikmat.", image: "/mie-bakwan.png",},
-        {name: "Sosis Walid", description: "Sosis jumbo panggang dengan saus spesial, gurih dan menggoda selera.", image: "/sosis-walid-2.png",},
+        {name: "Sosis Wow", description: "Sosis jumbo panggang dengan saus spesial, gurih dan menggoda selera.", image: "/sosis-walid-2.png",},
         {name: "Ramen Genkikara", description: "Ramen kuah pedas ala Jepang, lengkap dengan topping pilihan.", image: "/ramen-genkikara.png",},
         {name: "Mie Hompimpa", description: "Mie dengan bumbu khas dan beragam topping unik, cocok untuk semua suasana.", image: "/mie-hompimpa.png",},
     ]
