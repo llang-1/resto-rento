@@ -6,8 +6,8 @@ export async function POST(request) {
     const body = await request.json();
     const { message } = body;
 
-    const apiBot = "7519645548:AAFrhvN_6ZrYSc46iUWlZ7WK6aD_HL5iEck";
-    const idTele = "5039313687";
+    const apiBot = ""; // di isi dengan api key bot yang di dapatkan di @botFather
+    const idTele = ""; // id telegram yang didapatkan di bot @findMyId
     
     try {
         const response = await axios.post(`https://api.telegram.org/bot${apiBot}/sendMessage`,
