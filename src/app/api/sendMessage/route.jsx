@@ -28,7 +28,7 @@ export async function POST(request) {
                 headers: { "Content-Type": "application/json" },
             })
         } else {
-            return new Response(JSON.stringify({ message: "Pesanan gagal terkirim" }), {
+            return new Response(JSON.stringify({ message: "Pesanan gagal terkirim!" }), {
                 status: 500,
                 headers: { "Content-Type": "application/json" },
             })
